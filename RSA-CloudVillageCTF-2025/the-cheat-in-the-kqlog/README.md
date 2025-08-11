@@ -57,5 +57,5 @@ aws s3 cp s3://cheat-kqlog/flag.txt . --no-sign-request
 After opening the file locally, I had the flag.
 
 ![alt text](files/image-3.png)
-
+![alt text](image.png)
 
