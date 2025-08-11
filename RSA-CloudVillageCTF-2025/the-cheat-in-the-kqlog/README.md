@@ -1,4 +1,4 @@
-### 1️⃣ The Cheat in the KQLog
+### The Cheat in the KQLog
 
 **Description**  
 During a scheduled threat-hunting minigame, a security analyst noticed something strange in the event logs of the mainframe. The patterns looked routine—until a pixel out of place revealed a glitch in the matrix.
@@ -20,7 +20,7 @@ Once you find a bucket, dig into its contents.
 
 ---
 
-#### **Solution Steps**
+#### **Solution Steps:**
 
 I started by opening the provided log file, which had 1,001 entries. My first step was to scan through it to identify anything unusual such as null or malformed rows, strange User or EventID values or descriptions that might be encoded or obfuscated.
 
@@ -54,5 +54,8 @@ This time, the command worked and revealed a file named flag.txt. I downloaded i
 aws s3 cp s3://cheat-kqlog/flag.txt . --no-sign-request
 ```
 
-![alt text](files/image-3.png)
 After opening the file locally, I had the flag.
+
+![alt text](files/image-3.png)
+
+
