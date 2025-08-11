@@ -31,7 +31,9 @@ That long string seemed like it could be Base64, so I decoded it. The decoded ou
 ![alt text](files/image.png)
 ![alt text](files/image-1.png)
 
+```
 2025-03-08 09:14:25,4662,Microsoft Sentinel,unknown,Suspicious DCSync operation detected. Unusual replication activity observed. Investigation advised: check s3://cheat-kqlog/
+```
 
 The decoded message pointed me toward an S3 bucket named cheat-kqlog. I tried listing its contents with the AWS CLI using:
 
