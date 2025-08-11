@@ -29,6 +29,7 @@ While scrolling through, I found a very suspicious entry at index 499. Unlike th
 That long string seemed like it could be Base64, so I decoded it. The decoded output revealed a proper log line:
 
 ![alt text](files/image.png)
+
 ![alt text](files/image-1.png)
 
 ```
@@ -55,7 +56,6 @@ aws s3 cp s3://cheat-kqlog/flag.txt . --no-sign-request
 ```
 
 After opening the file locally, I had the flag.
-
 ![alt text](files/image-3.png)
-![alt text](image.png)
+
 
